@@ -23,4 +23,16 @@ describe('Fibonacci function', function () {
     it('should return 3 for fibonacci(4)', function () {
         assert.equal(fibonacci(4), 3);
     });
+
+    it('should return 5 for fibonacci(5)', function () {
+        assert.equal(fibonacci(5), 5);
+    });
+
+    it('should return 8 for fibonacci(6)', function () {
+        assert.equal(fibonacci(6), 8);
+    });
+
+    it('should return 13 for fibonacci(7)', function () {
+        assert.equal(fibonacci(7), 13);
+    });
 });
