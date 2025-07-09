@@ -15,4 +15,8 @@ describe('Fibonacci function', function () {
     it('should return 1 for fibonacci(2)', function () {
         assert.equal(fibonacci(2), 1);
     });
+
+    it('should return 2 for fibonacci(3)', function () {
+        assert.equal(fibonacci(3), 2);
+    });
 });
