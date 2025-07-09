@@ -2,7 +2,8 @@
 // Pair: Phionah Mumararungu and Nakintu Martha
 
 function fibonacci(n) {
-    return 0;
+    if (n === 0) return 0;
+    if (n === 1) return 1;
 }
 
 module.exports = fibonacci;
