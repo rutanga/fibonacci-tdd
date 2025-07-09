@@ -1,3 +1,5 @@
+// Pair: Phionah Mumararungu and Nakintu Martha
+
 const assert = require('chai').assert;
 const fibonacci = require('./fibonacci');
 
